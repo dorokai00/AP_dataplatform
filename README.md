@@ -40,8 +40,18 @@ Contains developmental and final versions of YP scraper.
 - HOW TO RUN IT?
 - It has been written inside the code file
 
-
 **Docker**:<br>
 - The folder contains the information how to run multiple jupyter notebook script every 24 hours automatically and mongoDB too.
 - HOW TO RUN IT?
 - It has been written inside the file named Docker.yml which is inside folder called Docker_for_multiple_script
+
+  **Kiel_events_scraper**:<br>
+- The folder contains two subfolders that has Kiel_events_api call and Kiel_events_scraper.
+- The kiel_events_api call folder has notebooks to acquire kiel events via api.
+- The Kiel_events_scraper has notebooks of various versions.The most latest version has the latest updates.
+- 
+    **Streamlit_user interface**:<br>
+-The folder has notebook to run streamlit app .
+-It has app4.py that has program to run the streamlit app.
+- It has main.py that runs API in the backend.
+- It has datahandlers_v5 that focuses on data integration.

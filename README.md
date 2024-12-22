@@ -44,4 +44,4 @@ Contains developmental and final versions of YP scraper.
 **Docker**:<br>
 - The folder contains the information how to run multiple jupyter notebook script every 24 hours automatically and mongoDB too.
 - HOW TO RUN IT?
-- It has been written inside the file named docker.yml
+- It has been written inside the file named Docker.yml which is inside folder called Docker_for_multiple_script

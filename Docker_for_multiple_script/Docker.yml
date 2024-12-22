@@ -1,0 +1,45 @@
+version: "3.9"
+
+services:
+  jupyter-notebook:
+    build: .
+    container_name: jupyter-notebook
+    ports:
+      - "8888:8888"  # Expose Jupyter Notebook port
+    volumes:
+      - ./notebooks:/home/jovyan/work/notebooks  # Mount notebooks directory
+    depends_on:
+      - mongodb  # Ensure MongoDB starts before Jupyter Notebook
+    command: >
+      sh -c "jupyter notebook --allow-root --ip=0.0.0.0 --no-browser &
+             python /home/jovyan/work/execute_notebooks.py" 
+
+  mongodb:
+    image: mongo:latest  # Use the official MongoDB image
+    container_name: mongodb
+    ports:
+      - "27017:27017"  # Expose MongoDB port
+    volumes:
+      - mongodb_data:/data/db  # Persist MongoDB data
+
+volumes:
+  mongodb_data:
+
+
+
+
+
+  # docker ps, list out the running docker contaner
+  # docker compose -f <file name>.yml up -d, to run compose file
+  # docker logs <container name>, to check the activity 
+  # docker compose -f <file name>.yml down, stop and remove container
+
+
+
+  # docker exec -it mongodb bash, to access the container
+  # mongosh, to connect to shell of that mongodb container
+  # show dbs;, to show all database list in that instances
+  # use container;, to use specific database to interact with( in our case, we have container as our database)
+  # db.container_collection.countDocuments();, it will say how many collection are there in that collection.
+  # db.container_collection.find().limit(5).pretty();, print first 5 collection
+  # exit, to exit the container

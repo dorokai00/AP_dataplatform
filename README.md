@@ -30,5 +30,5 @@ Contains developmental and final versions of YP scraper.
 - one where if the process breaks down, its easy to restart 
 - one to just run completely if everything goes well
 
-** OSM DATA**: <br>
+**OSM DATA**:<br>
 

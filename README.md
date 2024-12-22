@@ -38,4 +38,10 @@ Contains developmental and final versions of YP scraper.
 **API**:<br>
 - The folder name API contains the file used for building our API. 
 - HOW TO RUN IT?
-- It has been written inside the code file.
+- It has been written inside the code file
+
+
+**Docker**:<br>
+- The folder contains the information how to run multiple jupyter notebook script every 24 hours automatically and mongoDB too.
+- HOW TO RUN IT?
+- It has been written inside the file named docker.yml

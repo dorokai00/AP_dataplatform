@@ -28,4 +28,7 @@ And the creating and filling of ChromaDB vector store from MongoDB textual data 
 Contains developmental and final versions of YP scraper.
 - one for Kiel only
 - one where if the process breaks down, its easy to restart 
-- one to just run completely if everything goes well 
+- one to just run completely if everything goes well
+
+** OSM DATA**: <br>
+

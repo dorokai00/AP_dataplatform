@@ -32,6 +32,6 @@ Contains developmental and final versions of YP scraper.
 
 **OSM DATA**:<br>
 **API**:<br>
-The file name API contain the code used for building our API. 
-HOW TO RUN IT?
-It has been written inside the code file.
+- The file name API contain the code used for building our API. 
+- HOW TO RUN IT?
+- It has been written inside the code file.

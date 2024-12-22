@@ -36,6 +36,6 @@ Contains developmental and final versions of YP scraper.
 
 
 **API**:<br>
-- The file name API contain the code used for building our API. 
+- The folder name API contains the file used for building our API. 
 - HOW TO RUN IT?
 - It has been written inside the code file.

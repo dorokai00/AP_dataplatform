@@ -1,0 +1,7 @@
+/jupyter-setup
+  ├── Dockerfile
+  ├── docker-compose.yml
+  ├── notebooks/
+  │   ├── OSM_version_2.ipynb
+  │   ├── Kiel_Event_Calendar.ipynb
+  ├── schedule.py

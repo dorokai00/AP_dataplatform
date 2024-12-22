@@ -32,7 +32,7 @@ Contains developmental and final versions of YP scraper.
 
 **OSM DATA**:<br>
 - OSM scraper contains two version where version_2 is the final output.
-- but our whole experiment is carried out uisng version_1
+- but our whole experiment is carried out using version_1
 
 
 **API**:<br>
